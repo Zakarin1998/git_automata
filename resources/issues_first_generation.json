@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Setup backend con FastAPI",
+    "body": "Creare il server backend base con FastAPI e configurarlo con uvicorn.",
+    "labels": ["backend", "setup"]
+  },
+  {
+    "title": "Definire il modello JSON per gli ordini",
+    "body": "Strutturare il JSON con i parametri chiave per inviare gli ordini.",
+    "labels": ["backend", "design"]
+  },
+  {
+    "title": "Implementare il Crypto Dispatcher",
+    "body": "Creare un microservizio che smista gli ordini agli exchange.",
+    "labels": ["backend", "dispatcher"]
+  },
+  {
+    "title": "Scrivere API wrapper per Binance",
+    "body": "Implementare la gestione degli ordini su Binance.",
+    "labels": ["backend", "exchange"]
+  },
+  {
+    "title": "Scrivere API wrapper per Bybit",
+    "body": "Implementare la gestione degli ordini su Bybit.",
+    "labels": ["backend", "exchange"]
+  },
+  {
+    "title": "Scrivere API wrapper per Bitfinex",
+    "body": "Implementare la gestione degli ordini su Bitfinex.",
+    "labels": ["backend", "exchange"]
+  },
+  {
+    "title": "Scrivere API wrapper per Mexc",
+    "body": "Implementare la gestione degli ordini su Mexc.",
+    "labels": ["backend", "exchange"]
+  },
+  {
+    "title": "Aggiungere gestione errori nel Dispatcher",
+    "body": "Se mancano parametri o l’ordine non è valido, restituire errori dettagliati.",
+    "labels": ["backend", "error-handling"]
+  },
+  {
+    "title": "Testare l’invio ordini con dati fittizi",
+    "body": "Simulare l’invio di ordini per validare il funzionamento del backend.",
+    "labels": ["backend", "testing"]
+  },
+  {
+    "title": "Setup iniziale dell’app Reflex",
+    "body": "Creare il progetto frontend e impostare la struttura base.",
+    "labels": ["frontend", "setup"]
+  },
+  {
+    "title": "Creare la pagina principale della dashboard",
+    "body": "Implementare la homepage con overview del sistema.",
+    "labels": ["frontend", "UI"]
+  },
+  {
+    "title": "Implementare la visualizzazione delle posizioni aperte",
+    "body": "Mostrare le posizioni attive su vari exchange.",
+    "labels": ["frontend", "UI"]
+  },
+  {
+    "title": "Collegare il frontend alle API del backend",
+    "body": "Integrare Reflex con il backend per ricevere dati in tempo reale.",
+    "labels": ["frontend", "API"]
+  },
+  {
+    "title": "Aggiungere grafici per analisi trading",
+    "body": "Visualizzare dati di trading con grafici interattivi.",
+    "labels": ["frontend", "UI"]
+  },
+  {
+    "title": "Importare strategie esistenti nel progetto",
+    "body": "Trasferire le strategie già sviluppate nel nuovo progetto.",
+    "labels": ["strategies", "setup"]
+  },
+  {
+    "title": "Scrivere test per le strategie",
+    "body": "Validare il corretto funzionamento delle strategie di trading.",
+    "labels": ["strategies", "testing"]
+  },
+  {
+    "title": "Implementare la strategia Ping-Pong",
+    "body": "Creare la strategia di market making basata su ordini bid-ask.",
+    "labels": ["strategies", "development"]
+  },
+  {
+    "title": "Implementare la strategia Arbitrage Funding Rate",
+    "body": "Creare uno script che sfrutti il funding rate su più exchange.",
+    "labels": ["strategies", "development"]
+  },
+  {
+    "title": "Implementare la strategia Arbitrage On-Chain",
+    "body": "Creare una strategia di arbitraggio tra blockchain diverse.",
+    "labels": ["strategies", "development"]
+  }
+]
